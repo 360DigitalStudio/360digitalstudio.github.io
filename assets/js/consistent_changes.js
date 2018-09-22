@@ -1,4 +1,18 @@
-$('#menu').append(`<ul>
+$('title').text('360 Digital Studio');
+
+$('.logo').html('<strong>360 Digital Studio</strong> at Virginia Tech');
+
+$('.icons').html(`<li><a href="https://twitter.com/vt_360" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://giphy.com/channel/digitalstudio" class="icon fa-file"><span class="label">Twitter</span></a></li>
+										<li><a href="mailto:digitalstudio@vt.edu" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
+	`)
+
+$('#menu').html(`
+	<header class="major">
+										<h2>Menu</h2>
+									</header>
+
+	<ul>
 										<li><a href="index.html">Homepage</a></li>
 										<li><a href="about_us.html">About us</a></li>
 										<li><a href="online_consultations.html">Online Consultations</a></li>
@@ -39,4 +53,11 @@ $('#menu').append(`<ul>
 										<li><a href="about_us.html">How-To Videos</a></li>
 										<li><a href="about_us.html">Helpful Links</a></li>
 										<li><a href="elements.html">Elements</a></li>
-									</ul>`)
+									</ul>`);
+document.getElementsByClassName('contact')[0].parentElement.querySelector('p').remove();
+
+$('.fa-envelope-o').html('<a href="mailto:digitalstudio@vt.edu">digitalstudio@vt.edu</a>');
+
+$('.fa-phone').remove();
+
+$('.fa-home').html('60 Shanks<br> 404 Old Turner St, Blacksburg, VA 24060');
