@@ -7,6 +7,8 @@ $('.icons').html(`<li><a href="https://twitter.com/vt_360" class="icon fa-twitte
 										<li><a href="mailto:digitalstudio@vt.edu" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
 	`)
 
+$('#search').remove();
+
 $('#menu').html(`
 	<header class="major">
 										<h2>Menu</h2>
@@ -60,4 +62,6 @@ $('.fa-envelope-o').html('<a href="mailto:digitalstudio@vt.edu">digitalstudio@vt
 
 $('.fa-phone').remove();
 
-$('.fa-home').html('60 Shanks<br> 404 Old Turner St, Blacksburg, VA 24060');
+$('.fa-home').html('360 Shanks<br> 404 Old Turner St, Blacksburg, VA 24060');
+
+$('.copyright').html(`<p class="copyright">© 360 Digital Studio @ VT. All rights reserved. Template: <a href="https://html5up.net">HTML5 UP</a>.</p>`);
