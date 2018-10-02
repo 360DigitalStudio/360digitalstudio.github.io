@@ -18,6 +18,7 @@ $('#menu').html(`
 										<li><a href="index.html">Homepage</a></li>
 										<li><a href="about_us.html">About us</a></li>
 										<li><a href="online_consultations.html">Online Consultations</a></li>
+										<li><a href="features.html">Features</a></li>
 										<li>
 											<span class="opener">Design</span>
 												<ul>
@@ -25,6 +26,8 @@ $('#menu').html(`
 													<li><a href="#">CARP</a></li>
 												</ul>
 										</li>
+
+
 
 										<li>
 											<span class="opener">Job Applications</span>
