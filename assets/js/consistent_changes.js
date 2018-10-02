@@ -59,7 +59,20 @@ $('#menu').html(`
 										<li><a href="about_us.html">Helpful Links</a></li>
 										<li><a href="elements.html">Elements</a></li>
 									</ul>`);
+document.getElementsByClassName('mini-posts')[0].parentElement.querySelector('h2').innerText = 'Logos';
+document.getElementsByClassName('mini-posts')[0].parentElement.querySelector('li').remove();
+
+
 document.getElementsByClassName('contact')[0].parentElement.querySelector('p').remove();
+
+
+$('.mini-posts').html(`<article>
+							<a href="#" class="image"><img src="images/360_logo.png" alt=""></a>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/C.R.A.P_Design.png" alt=""></a>
+						</article>`);
+
 
 $('.fa-envelope-o').html('<a href="mailto:digitalstudio@vt.edu">digitalstudio@vt.edu</a>');
 
