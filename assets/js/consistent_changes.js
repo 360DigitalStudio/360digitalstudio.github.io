@@ -22,8 +22,8 @@ $('#menu').html(`
 										<li>
 											<span class="opener">Design</span>
 												<ul>
-													<li><a href="#">Doc Design</a></li>
-													<li><a href="#">CARP</a></li>
+													<li><a href="doc_design.html">Doc Design</a></li>
+													<li><a href="carp.html">CARP</a></li>
 												</ul>
 										</li>
 
@@ -32,31 +32,31 @@ $('#menu').html(`
 										<li>
 											<span class="opener">Job Applications</span>
 											<ul>
-												<li><a href="#">Resume</a></li>
-												<li><a href="#">Cover Letter</a></li>
+												<li><a href="resume.html">Resume</a></li>
+												<li><a href="cover_letter.html">Cover Letter</a></li>
 											</ul>
 										</li>
 										<li>
 											<span class="opener">Reports </span>
 												<ul>
-													<li><a href="#">Progress</a></li>
-													<li><a href="#">Recommendation</a></li>
-													<li><a href="#">Field / Informational</a></li>
+													<li><a href="progress.html">Progress</a></li>
+													<li><a href="recommendation.html">Recommendation</a></li>
+													<li><a href="field_informational.html">Field / Informational</a></li>
 												</ul>
 										</li>
 
 										<li>
 											<span class="opener">Proposals</span>
 												<ul>
-													<li><a href="#">Goods & Services</a></li>
-													<li><a href="#">Research</a></li>
+													<li><a href="goods_services.html">Goods & Services</a></li>
+													<li><a href="research.html">Research</a></li>
 												</ul>
 										</li>
 										
 										
-										<li><a href="about_us.html">Collaboration</a></li>
-										<li><a href="about_us.html">How-To Videos</a></li>
-										<li><a href="about_us.html">Helpful Links</a></li>
+										<li><a href="collaboration.html">Collaboration</a></li>
+										<li><a href="how_to.html">How-To Videos</a></li>
+										<li><a href="helpful_links.html">Helpful Links</a></li>
 										<li><a href="elements.html">Elements</a></li>
 									</ul>`);
 document.getElementsByClassName('mini-posts')[0].parentElement.querySelector('h2').innerText = 'Logos';
