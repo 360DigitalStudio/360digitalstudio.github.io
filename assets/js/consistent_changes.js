@@ -23,7 +23,7 @@ $('#menu').html(`
 											<span class="opener">Design</span>
 												<ul>
 													<li><a href="doc_design.html">Doc Design</a></li>
-													<li><a href="carp.html">CARP</a></li>
+													<li><a href="carp.html">CRAP</a></li>
 												</ul>
 										</li>
 
