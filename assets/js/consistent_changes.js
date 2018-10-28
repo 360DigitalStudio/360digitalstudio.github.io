@@ -1,4 +1,4 @@
-$('title').text('360 Digital Studio');
+$('title').text('360 Digital Studio at Virginia Tech');
 
 $('.logo').html('<strong>360 Digital Studio</strong> at Virginia Tech');
 
