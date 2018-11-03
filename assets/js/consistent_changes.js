@@ -36,6 +36,11 @@ $('#menu').html(`
 												<li><a href="cover_letter.html">Cover Letter</a></li>
 											</ul>
 										</li>
+
+										<li>
+											<a href="emails.html">Emails</a>
+										</li>
+
 										<li>
 											<span class="opener">Reports </span>
 												<ul>
