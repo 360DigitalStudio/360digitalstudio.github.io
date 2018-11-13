@@ -84,3 +84,5 @@ $('.fa-phone').remove();
 $('.fa-home').html('360 Shanks<br> 404 Old Turner St, Blacksburg, VA 24060');
 
 $('.copyright').html(`<p class="copyright">© 360 Digital Studio @ VT. All rights reserved. Template: <a href="https://html5up.net">HTML5 UP</a>.</p>`);
+
+$('head').append('<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">');
