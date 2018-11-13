@@ -1,3 +1,18 @@
+//Google analytics
+
+$('head').append('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129153732-1"></script>');
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-129153732-1');
+
+//********************************
+
+$('head').append('<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">');
+
+
+
+
 $('title').text('360 Digital Studio at Virginia Tech');
 
 $('.logo').html('<strong>360 Digital Studio</strong> at Virginia Tech');
@@ -84,5 +99,3 @@ $('.fa-phone').remove();
 $('.fa-home').html('360 Shanks<br> 404 Old Turner St, Blacksburg, VA 24060');
 
 $('.copyright').html(`<p class="copyright">© 360 Digital Studio @ VT. All rights reserved. Template: <a href="https://html5up.net">HTML5 UP</a>.</p>`);
-
-$('head').append('<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">');
