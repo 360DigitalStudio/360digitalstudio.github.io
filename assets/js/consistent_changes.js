@@ -73,7 +73,7 @@ document.getElementsByClassName('contact')[0].parentElement.querySelector('p').r
 
 $('.mini-posts').html(`
 						<article>
-							<a href="#" class="image"><img src="images/C.R.A.P_Design.png" alt=""></a>
+							<a href="carp.html" class="image"><img src="images/C.R.A.P_Design.png" alt=""></a>
 						</article>`);
 
 
