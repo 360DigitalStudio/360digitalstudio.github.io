@@ -1,3 +1,18 @@
+//Google analytics
+
+$('head').append('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129153732-1"></script>');
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-129153732-1');
+
+//********************************
+
+$('head').append('<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">');
+
+
+
+
 $('title').text('360 Digital Studio at Virginia Tech');
 
 $('.logo').html('<strong>360 Digital Studio</strong> at Virginia Tech');
@@ -73,7 +88,7 @@ document.getElementsByClassName('contact')[0].parentElement.querySelector('p').r
 
 $('.mini-posts').html(`
 						<article>
-							<a href="#" class="image"><img src="images/C.R.A.P_Design.png" alt=""></a>
+							<a href="carp.html" class="image"><img src="images/C.R.A.P_Design.png" alt=""></a>
 						</article>`);
 
 
