@@ -77,7 +77,6 @@ $('#menu').html(`
 										<li><a href="collaboration.html">Collaboration</a></li>
 										<li><a href="how_to.html">How-To Videos</a></li>
 										<li><a href="helpful_links.html">Helpful Links</a></li>
-										<li><a href="elements.html">Elements</a></li>
 									</ul>`);
 document.getElementsByClassName('mini-posts')[0].parentElement.querySelector('h2').innerText = 'Featured Articles';
 document.getElementsByClassName('mini-posts')[0].parentElement.querySelector('li').remove();
