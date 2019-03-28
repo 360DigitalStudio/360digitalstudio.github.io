@@ -49,6 +49,7 @@ $('#menu').html(`
 											<ul>
 												<li><a href="resume.html">Resume</a></li>
 												<li><a href="cover_letter.html">Cover Letter</a></li>
+<li><a href="onlineinterviews.html">Online Interviews</a></li>
 											</ul>
 										</li>
 
