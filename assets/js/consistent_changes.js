@@ -33,7 +33,7 @@ $('#menu').html(`
 										<li><a href="index.html">Homepage</a></li>
 										<li><a href="about_us.html">About us</a></li>
 										<li><a href="online_consultations.html">Online Consultations</a></li>
-										<li><a href="features.html">Features</a></li>
+										<li><a href="features.html">Studio Features</a></li>
 										<li>
 											<span class="opener">Design</span>
 												<ul>
@@ -45,10 +45,10 @@ $('#menu').html(`
 
 
 										<li>
-											<span class="opener">Job Applications</span>
+											<span class="opener">Job Materials</span>
 											<ul>
-												<li><a href="resume.html">Resume</a></li>
-												<li><a href="cover_letter.html">Cover Letter</a></li>
+												<li><a href="resume.html">Resume Redesign</a></li>
+												<li><a href="websites.html">Professional Websites</a></li>
 <li><a href="onlineinterviews.html">Online Interviews</a></li>
 											</ul>
 										</li>
