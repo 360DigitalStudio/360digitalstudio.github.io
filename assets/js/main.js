@@ -282,3 +282,11 @@ span.onclick = function() {
    modal.style.display = "none";
 }
 })(jQuery);
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
